@@ -13,7 +13,7 @@
 
 	--clr-light: #fff;
 	--clr-dark: #303030;
-	--clr-accent: #777777;
+	--clr-accent: #16E0BD;
 
 	--fs-h1: 3rem;
 	--fs-h2: 2.25rem;
@@ -59,4 +59,27 @@ h3 {
 }
 strong {
 	font-weight: var(--fw-bold);
+}
+
+.section__title {
+	margin-bottom: .25em;
+}
+
+.section__title--intro {
+	font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+	display: block;
+}
+
+.section__subtitle {
+	margin: 0;
+	font-size: var(--fs-h3);
+}
+
+.section__title--intro,
+.section__subtitle--about {
+	background: var(--clr-accent);
+	font-family: var(--ff-secondary);
 }
