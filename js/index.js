@@ -11,3 +11,13 @@ navLinks.forEach(link => {
 		document.body.classList.remove('nav-open');
 	})
 });
+
+document.getElementById('project-one').onclick = function() {
+	localStorage.setItem("intro-name", "Time Change Tracker");
+   window.location = "portfolioItem.html";
+}
+
+document.getElementById('project-two').onclick = function() {
+   localStorage.setItem("intro-name", "My Website Example");
+   window.location = "portfolioItem.html";
+}

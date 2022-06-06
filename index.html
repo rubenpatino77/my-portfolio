@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ruben P Portfolio</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+			integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	
+	<body>
+		<header>
+
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Intro Page -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hello, I am <strong>Ruben Patino</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro"> full stack dev</p>
+			<!-- <img src="img/blankPerson.png" alt="A headshot of me" class="intro__img"> -->
+			<img src="myPics/headShot.jpeg" alt="A headshot of me" class="intro__img"> 
+		</section>
+
+		<!-- My Services -->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">What I Do</h2>
+			<div class="services">
+
+				<div class="service">
+					<h3>Android Applications</h3>
+					<p>While most of my work has been done with the backend of the application through Java, I strive to elevate my front end 
+					skils and further my experience with HTML and XML. With the objective to solve real-life problems in mind, I have developed an application that notifies users about changes in the hours of the businesses of their choice. The application helps users avoid showing up to a closed gym, golf course, church and more, due to a sudden change in the location's hours. Click the button below to see more about it.</p>
+				</div>
+
+				<div class="service">
+					<h3>Databases</h3>
+					<p>College has exposed me to the basics of SQL queries, but my personal android applicaiton has given me the opportunity to use databases for legitimate problem-solving. In my application, a MySQL database was necessary to keep track of the users' chosen locations and their respective operational hours, which is consistently compared to the updated hours posted online to ensure they still match.</p>
+				</div>
+				<div class="service">
+					<h3>Web Development</h3>
+					<p>I have developed a couple of websites- one personal and one for a client- using HTML, CSS and JavaScript. Throughout the development process, I learned about and utilized front-end tools and effects such as CSS grid, media queries, parallax scrolling and more. In the near future I plan to make use of frameworks, such as react, jQuery, Express.js and more, in order to better follow standards and be more efficient with development.</p>
+				</div>
+			</div>
+
+			<a href="#work" class="btn">My Work</a>
+		</section>
+		
+		<!-- About Me -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h3>
+			<p class="section__subtitle section__subtitle--about">Software Developer</p>
+
+			<div class="about-me__body">
+				<p class="about-me__summary">
+					Hello, my name is Ruben and I enjoy trying to solve real-life problems through code. I recieved my B.S. in Computer Science from CSU Channel Islands, where I learned about many different software languages and tools. Throughout my studies in college, I worked most frequently with Java but recently have been focusing on HTML, CSS and JavaScript . Although I favor Java, I love expanding my knowledge in other languages and tools so that I can apply my skills in differents areas and projects.
+				</p>
+				<p class="about-me__summary">
+					Besides programming, I really enjoy video games, the outdoors and being active. I love playing soccer and going to the gym and have already created a solution to one of my gym problems. 
+				</p>
+			</div>
+			<img src="myPics/picOfMe.png" alt="A pitcure of me" class="about-me__img">
+		</section>
+
+		<!-- My Work -->
+		<section class="my-work" id="work">
+			<h2 class="section__title section__title--work">My Work</h2>
+			<p class="section__subtitle section__subtitle--work">A list of my work</p>
+
+			<div class="portfolio">
+				<a class="portfolio__item" id="project-one">
+					<img src="myPics/TCTApp.png" alt="Image(s) of example of work" class="portfolio__img">
+				</a>
+				<a class="portfolio__item" id="project-two">
+					<img src="img/webIntroPic.png" alt="Image(s) of example of work" class="portfolio__img">
+				</a>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<a href="mailto:rubenpatino77@gmail.com" class="footer__link">rubenpatino77@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a href="https://github.com/rubenpatino77?tab=repositories" class="social-list__link">
+					<img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/>
+						<i class="icons"></i>
+					</a>
+				</li>
+		</footer>
+
+		<script type="text/javascript" src="js/index.js"></script>
+
+	</body>
+</html>
