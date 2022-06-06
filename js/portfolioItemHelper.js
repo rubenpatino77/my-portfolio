@@ -195,6 +195,5 @@ switch(programName) {
 		responsiveVideo.muted = true;
 		responsiveVideo.style.width = '100%';
 		responsiveVideoHolder.appendChild(responsiveVideo);
-
 		break;
 }
