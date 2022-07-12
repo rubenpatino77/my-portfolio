@@ -309,13 +309,6 @@ header {
     background: var(--clr-black);
 }
 
-.item-intro__img {
-	width:  400px;
-    height: 400px;
-    object-fit: contain;
-    background: var(--clr-black);
-}
-
 
 
 /*My Services */

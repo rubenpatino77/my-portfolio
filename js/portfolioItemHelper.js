@@ -199,24 +199,34 @@ switch(programName) {
 
 	case "Angular Tutorial 1":
 
-		//document.getElementById("item-intro-pic").src = '';
-		//document.getElementById("item-intro-subtitle").innerHTML = "";
-		document.getElementById("item-explanation-1").remove();
+		document.getElementById("item-intro-pic").src = 'myPics/taskIntroPic.png';
+		document.getElementById("item-intro-subtitle").innerHTML = "Learning How to Use Angular";
+
+		document.getElementById("item-explanation-1").innerHTML = "To get the application up and running, a local development server is used via \"ng serve\"." +
+						" In order to communicate the content to the server and back to the UI, a local API is used through JSON Server.";
 		document.getElementById("item-explanation-gif-1").remove();
-		document.getElementById("item-explanation-2").remove();
-		document.getElementById("item-explanation-gif-2").remove();
-		document.getElementById("item-explanation-3").remove();
-		document.getElementById("item-explanation-gif-3").remove();
-		document.getElementById("item-explanation-4").remove();
-		document.getElementById("item-explanation-gif-4").remove();
+		document.getElementById("item-explanation-2").innerHTML = "<br><br>When the websit is first loaded up,there are no tasks which looks like:";
+		document.getElementById("item-explanation-gif-2").src = "myPics/TT-HomePage.png";
+
+		document.getElementById("item-explanation-3").innerHTML = "In order to add a task, the user simply needs to press on the \"add\" button which will give" +
+						" the user a couple of text boxes to fill in. If the \"task\" box is empty, an alert will pop up as shown below.";
+		document.getElementById("item-explanation-gif-3").src = "myPics/TT-TaskError.png";
+
+		document.getElementById("item-explanation-4").innerHTML = "When the information is correctly filled in, the task may be added by clicking on the \"Save" +
+						" Task\" button. Below is an example of a user adding a 4th task and setting a reminder which is shown with the green bar to the left " +
+						"of the corresponding task.";
+		document.getElementById("item-explanation-gif-4").src = "myPics/TT-Adding4thTask.png";
 		document.getElementById("item-explanation-5").remove();
-		document.getElementById("item-explanation-gif-5").remove();
-		document.getElementById("item-explanation-6").remove();
-		document.getElementById("item-explanation-gif-6").remove();
-		document.getElementById("item-explanation-7").remove();
-		document.getElementById("item-explanation-gif-7").remove();
+		document.getElementById("item-explanation-gif-5").src = "myPics/TT-TaskAdded.png";
+
+		document.getElementById("item-explanation-6").innerHTML = "To delete a task, the user must click on the red \"x\" of the desired task."
+		document.getElementById("item-explanation-gif-6").src = "myPics/TT-RedX.png";
+
+		document.getElementById("item-explanation-7").innerHTML = "There is also an \"About\" page to make use of angular routing. Clicking on the \"About\" " +
+						"button will route the user to the \"About\" page as shown below.";
+		document.getElementById("item-explanation-gif-7").src = "myPics/TT-AboutButton.png";
 		document.getElementById("item-explanation-8").remove();
-		document.getElementById("item-explanation-gif-8").remove();
+		document.getElementById("item-explanation-gif-8").src = "myPics/TT-AboutPage.png";
 		document.getElementById("item-explanation-9").remove();
 		document.getElementById("item-explanation-gif-9").remove();
 		document.getElementById("item-explanation-10").remove();
