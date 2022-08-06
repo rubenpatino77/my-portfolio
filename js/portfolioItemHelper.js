@@ -199,7 +199,7 @@ switch(programName) {
 
 	case "Angular Tutorial 1":
 
-		document.getElementById("item-intro-pic").src = 'myPics/taskIntroPic.png';
+		document.getElementById("item-intro-pic").src = 'myPics/TT-IntroPic.png';
 		document.getElementById("item-intro-subtitle").innerHTML = "Learning How to Use Angular";
 
 		document.getElementById("item-explanation-1").innerHTML = "To get the application up and running, a local development server is used via \"ng serve\"." +
