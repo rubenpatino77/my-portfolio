@@ -13,16 +13,21 @@ navLinks.forEach(link => {
 });
 
 document.getElementById('project-one').onclick = function() {
-	localStorage.setItem("intro-name", "Angular Tutorial 1");
+	localStorage.setItem("intro-name", "Ruby Practice 1");
    window.location = "portfolioItem.html";
 }
 
 document.getElementById('project-two').onclick = function() {
-   localStorage.setItem("intro-name", "My Website Example");
+	localStorage.setItem("intro-name", "Angular Tutorial 1");
    window.location = "portfolioItem.html";
 }
 
 document.getElementById('project-three').onclick = function() {
+   localStorage.setItem("intro-name", "My Website Example");
+   window.location = "portfolioItem.html";
+}
+
+document.getElementById('project-four').onclick = function() {
    localStorage.setItem("intro-name", "Time Change Tracker");
    window.location = "portfolioItem.html";
 }
