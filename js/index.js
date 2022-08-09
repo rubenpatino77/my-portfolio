@@ -13,12 +13,12 @@ navLinks.forEach(link => {
 });
 
 document.getElementById('project-one').onclick = function() {
-	localStorage.setItem("intro-name", "Ruby Practice 1");
+	localStorage.setItem("intro-name", "Friends List Website");
    window.location = "portfolioItem.html";
 }
 
 document.getElementById('project-two').onclick = function() {
-	localStorage.setItem("intro-name", "Angular Tutorial 1");
+	localStorage.setItem("intro-name", "Task Tracker Website");
    window.location = "portfolioItem.html";
 }
 

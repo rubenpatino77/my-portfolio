@@ -62,6 +62,18 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-13").remove();
 		document.getElementById("item-explanation-14").remove();
 		document.getElementById("item-explanation-gif-14").remove();
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
 
 		break;
 
@@ -195,9 +207,21 @@ switch(programName) {
 		responsiveVideo.muted = true;
 		responsiveVideo.style.width = '100%';
 		responsiveVideoHolder.appendChild(responsiveVideo);
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
 		break;
 
-	case "Angular Tutorial 1":
+	case "Task Tracker Website":
 
 		document.getElementById("item-intro-pic").src = 'myPics/taskTrackerPics/introPic.png';
 		document.getElementById("item-intro-subtitle").innerHTML = "Learning How to Use Angular";
@@ -239,9 +263,122 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-13").remove();
 		document.getElementById("item-explanation-14").remove();
 		document.getElementById("item-explanation-gif-14").remove();
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
+		break;
 
 
-	case "My Website Example":
+	case "Friends List Website":
+		document.getElementById("item-intro-pic").src = 'myPics/friendsAppPics/existingList.png';
+		document.getElementById("item-intro-subtitle").innerHTML = "CRUD Application with Ruby";
+
+		document.getElementById("item-explanation-1").innerHTML = "The \"Friends List\" application was created with Ruby on Rails in order to" +
+						" practice creating CRUD applications along with getting a chance to work more with databases.<br>To view the live " +
+						"website click the link below, otherwise view the website explanation further below.<br>";
+
+		document.getElementById("item-explanation-gif-1").remove();
+		var webLink = document.createElement('a');
+		var linkText = document.createTextNode("SEE WEBSITE HERE");
+		webLink.appendChild(linkText);
+		webLink.href = "https://rubensrailsfriendstutorial.herokuapp.com";
+		var mySpan = document.getElementById("item-explanation-2");
+		mySpan.parentNode.replaceChild(webLink, mySpan);
+		document.getElementById("item-explanation-gif-2").remove();
+		
+
+		friendsHomePageSub = "<br><br>Home Page<br><br>";
+		document.getElementById("item-explanation-3").innerHTML = friendsHomePageSub.bold();
+		document.getElementById("item-explanation-3").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-3").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-3").remove();
+
+		document.getElementById("item-explanation-4").innerHTML = "When the website is first opened, the first thing the user will see is the " +
+						"homepage with a header of links. An image is shown below.";
+		document.getElementById("item-explanation-gif-4").src = "myPics/friendsAppPics/homePage.png";
+
+		friendsAboutPageSub = "<br><br>About Page<br><br>";
+		document.getElementById("item-explanation-5").innerHTML = friendsAboutPageSub.bold();
+		document.getElementById("item-explanation-5").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-5").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-5").remove();
+
+		document.getElementById("item-explanation-6").innerHTML = "With the first link in the header being the home page, the second link is the" +
+						" about page which only displays a small description.";
+		document.getElementById("item-explanation-gif-6").src = "myPics/friendsAppPics/aboutPage.png";
+
+		friendsSignInUpSub = "<br><br>Sign In/Up Pages<br><br>";
+		document.getElementById("item-explanation-7").innerHTML = friendsSignInUpSub.bold();
+		document.getElementById("item-explanation-7").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-7").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-7").remove();
+
+		document.getElementById("item-explanation-8").innerHTML = "The next 2 links in the header are the sign in and sign up links. A new user" +
+						" must first sign up, below is an example user signing up.";
+		document.getElementById("item-explanation-gif-8").src = "myPics/friendsAppPics/signUpPage.png";
+
+		document.getElementById("item-explanation-9").innerHTML = "A user with an existing account may just sign in";
+		document.getElementById("item-explanation-gif-9").src = "myPics/friendsAppPics/signInPage.png";
+
+		friendsUserProfileSub = "<br><br>User Profile<br><br>";
+		document.getElementById("item-explanation-10").innerHTML = friendsUserProfileSub.bold();
+		document.getElementById("item-explanation-10").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-10").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-10").remove();
+
+		document.getElementById("item-explanation-11").innerHTML = "When a user logs in the header will slightly change and the \"Home\" page will" +
+						" contain the friends list as we can see below.";
+		document.getElementById("item-explanation-gif-11").src = "myPics/friendsAppPics/newList.png";
+
+		document.getElementById("item-explanation-12").innerHTML = "Here is an existing list with friends already added.";
+		document.getElementById("item-explanation-gif-12").src = "myPics/friendsAppPics/existingList.png";
+
+		document.getElementById("item-explanation-13").innerHTML = "Add Friends";
+		document.getElementById("item-explanation-13").innerHTML = document.getElementById("item-explanation-13").innerHTML.bold();
+		document.getElementById("item-explanation-13").innerHTML += "<br>To add a friend to the list, the user must click on the \"New Friend\" button" +
+						" located under the list or the \"Add Friend\" button in the header. The user will then be redirected to the \"Add New Friend" +
+						"\" page where they will fill in their friends information and click on the \"Create Frieind\" button."
+		document.getElementById("item-explanation-gif-13").src = "myPics/friendsAppPics/addFriend.png";
+		document.getElementById("item-explanation-14").remove();
+		document.getElementById("item-explanation-gif-14").src = "myPics/friendsAppPics/friendAdded.png";
+
+		document.getElementById("item-explanation-15").innerHTML = "Delete Friends<br>";
+		document.getElementById("item-explanation-15").innerHTML = document.getElementById("item-explanation-15").innerHTML.bold();
+		document.getElementById("item-explanation-15").innerHTML += "To delete a friend, the user clicks on the \"Show This Friend\" button then on " +
+						"the \"Destroy This Friend\" button.";
+		document.getElementById("item-explanation-gif-15").src = "myPics/friendsAppPics/showButton.png";
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").src = "myPics/friendsAppPics/deleteFriend.png";
+
+		document.getElementById("item-explanation-17").innerHTML = "Edit/Delete Profile<br>";
+		document.getElementById("item-explanation-17").innerHTML = document.getElementById("item-explanation-17").innerHTML.bold();
+		document.getElementById("item-explanation-17").innerHTML += "The \"Edit Profile\" page allows the user to change their email or password or" +
+						" delete their own account, all of which can be seen below.";
+		document.getElementById("item-explanation-gif-17").src = "myPics/friendsAppPics/editProfile.png";
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
+
+		break;
+
+
+/*
+	case "Title":
+
+		document.getElementById("item-intro-pic").src = '';
+		document.getElementById("item-intro-subtitle").innerHTML = "";
 		document.getElementById("item-explanation-1").remove();
 		document.getElementById("item-explanation-gif-1").remove();
 		document.getElementById("item-explanation-2").remove();
@@ -266,15 +403,24 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-11").remove();
 		document.getElementById("item-explanation-12").remove();
 		document.getElementById("item-explanation-gif-12").remove();
+		document.getElementById("item-explanation-13").remove();
 		document.getElementById("item-explanation-gif-13").remove();
 		document.getElementById("item-explanation-14").remove();
 		document.getElementById("item-explanation-gif-14").remove();
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
 
 		break;
-
-
-
-
-
+*/
 
 }
