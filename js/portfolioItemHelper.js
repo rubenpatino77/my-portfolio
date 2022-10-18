@@ -373,6 +373,106 @@ switch(programName) {
 
 		break;
 
+	case "Book Shop Simulator":
+
+		document.getElementById("item-intro-pic").src = 'myPics/bookShopMedia/homePage.png';
+		document.getElementById("item-intro-subtitle").innerHTML = "Utilizing Angular with NoSQl.";
+
+		document.getElementById("item-explanation-1").innerHTML = "Developing this book shop was a great way to learn how to effectively use Angular " +
+						"along with a NoSQL database to build a website that uses the four aspects of of CRUD. Tailwing CSS was also used to promote " +
+						"efficiency and allow me to focus on the many different features of angular.<br><br>You may scroll down to view the full explanation" +
+						" of the project, otherwise, you can click on the link just below to view the live website. The live website allows users to " +
+						"create an account and save their cart data to a database.<br>";
+		document.getElementById("item-explanation-gif-1").remove();
+		var webLink = document.createElement('a');
+		var linkText = document.createTextNode("SEE WEBSITE HERE");
+		webLink.appendChild(linkText);
+		webLink.href = "https://rubenp-bookshop.web.app/";
+		var mySpan = document.getElementById("item-explanation-2");
+		mySpan.parentNode.replaceChild(webLink, mySpan);
+		document.getElementById("item-explanation-gif-2").remove();
+
+		bookShopHomePageSub = "<br><br>Home Page<br><br>";
+		document.getElementById("item-explanation-3").innerHTML = bookShopHomePageSub.bold();
+		document.getElementById("item-explanation-3").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-3").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-3").remove();
+
+
+		document.getElementById("item-explanation-4").innerHTML = "As shown below, the homepage displays a navigation bar and under it, lists all books that are for " +
+		"sale. Since the user is not yet signed in, the only buttons or links that will work are the \'Login\' and \'Register\' buttons.";
+		document.getElementById("item-explanation-gif-4").src = "myPics/bookShopMedia/homePage.png";
+
+		bookShopRegPageSub = "<br><br>Register Page<br><br>";
+		document.getElementById("item-explanation-5").innerHTML = bookShopRegPageSub.bold();
+		document.getElementById("item-explanation-5").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-5").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-5").remove();
+
+		document.getElementById("item-explanation-6").innerHTML = "Below you can see a user registering with their valid email and password.";
+		document.getElementById("item-explanation-gif-6").src = "myPics/bookShopMedia/registerPage.png";
+
+		document.getElementById("item-explanation-7").innerHTML = "A succeessful regristration looks like this:";
+		document.getElementById("item-explanation-gif-7").src = "myPics/bookShopMedia/registerSuccess.png";
+
+		bookShopLoginPageSub = "<br><br>Login Page<br><br>";
+		document.getElementById("item-explanation-8").innerHTML = bookShopLoginPageSub.bold();
+		document.getElementById("item-explanation-8").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-8").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-8").remove();
+
+		document.getElementById("item-explanation-9").innerHTML = "If the user has an account and wants to sign in, clearly they would click on the \'Login\' button " +
+						"and be redirected to the Login page where they can enter their information as shown below";
+		document.getElementById("item-explanation-gif-9").src = "myPics/bookShopMedia/loginPage.png";
+
+		document.getElementById("item-explanation-10").innerHTML = "Once a user is signed in, they will be able to add books to their cart and view it or delete any " +
+						"unwanted books. Below is an image of a users page after adding 3 books to their cart.";
+		document.getElementById("item-explanation-gif-10").src = "myPics/bookShopMedia/homePageCart.png";
+
+		bookShopCartPageSub = "<br><br>Editing the Books in the Cart<br><br>";
+		document.getElementById("item-explanation-11").innerHTML = bookShopCartPageSub.bold();
+		document.getElementById("item-explanation-11").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-11").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-11").remove();
+
+		document.getElementById("item-explanation-12").innerHTML = "This next image is a view of the 3 items in the cart which can be deleted."
+		document.getElementById("item-explanation-gif-12").src = "myPics/bookShopMedia/cart.png";
+
+		document.getElementById("item-explanation-13").innerHTML = "Once the user clicks on \'Logout\', the items in their cart gets saved to a NoSQL database in " +
+						"Firestore. The image below shows the 3 books the user above had chosen, after being saved.";
+		document.getElementById("item-explanation-gif-13").src = "myPics/bookShopMedia/database.png";
+
+		document.getElementById("item-explanation-14").innerHTML = "Looking at the thumbnail below, we can see the 3 items in the database again. The video demonstrates a" +
+						" a user signing in, editing their cart and loging out to save the changes which are shown in the database.<br><br>";
+		document.getElementById("item-explanation-gif-14").remove();
+
+		const bookShopVideoHolder = document.getElementById("item-explanation-14");
+		const bookShopVideo = document.createElement('video');
+		bookShopVideo.src =
+		  'myPics/bookShopMedia/saveCart.mp4';
+		bookShopVideo.autoplay = false;
+		bookShopVideo.controls = true;
+		bookShopVideo.muted = true;
+		bookShopVideo.style.width = '100%';
+		bookShopVideoHolder.appendChild(bookShopVideo);
+
+		//NEED TO FIX HOME PAGE SPACE BETWEEN PROJECTS THEN ADD AND COMMIT
+		
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
+
+		break;
+
 
 /*
 	case "Title":

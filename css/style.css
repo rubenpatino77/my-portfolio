@@ -408,9 +408,9 @@ header {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	position: relative;
-	grid-row-gap: 10rem;
+	grid-row-gap: 12rem;
 	grid-column-gap: 2rem;
-	padding-bottom: 5rem;
+	padding-bottom: 7rem;
 }
 
 .portfolio__item {

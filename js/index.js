@@ -31,3 +31,8 @@ document.getElementById('project-four').onclick = function() {
    localStorage.setItem("intro-name", "Time Change Tracker");
    window.location = "portfolioItem.html";
 }
+
+document.getElementById('project-five').onclick = function() {
+   localStorage.setItem("intro-name", "Book Shop Simulator");
+   window.location = "portfolioItem.html";
+}
