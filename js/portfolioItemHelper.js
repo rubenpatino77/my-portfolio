@@ -474,6 +474,58 @@ switch(programName) {
 		break;
 
 
+
+
+	case "Video Uploader":
+
+		document.getElementById("item-intro-pic").src = 'myPics/VideoUploaderMedia/VU-homePage.png';
+		document.getElementById("item-intro-subtitle").innerHTML = "Save videos to the cloud.";
+		document.getElementById("item-explanation-1").remove();
+		document.getElementById("item-explanation-gif-1").remove();
+		document.getElementById("item-explanation-2").remove();
+		document.getElementById("item-explanation-gif-2").remove();
+		document.getElementById("item-explanation-3").remove();
+		document.getElementById("item-explanation-gif-3").remove();
+		document.getElementById("item-explanation-4").remove();
+		document.getElementById("item-explanation-gif-4").remove();
+		document.getElementById("item-explanation-5").remove();
+		document.getElementById("item-explanation-gif-5").remove();
+		document.getElementById("item-explanation-6").remove();
+		document.getElementById("item-explanation-gif-6").remove();
+		document.getElementById("item-explanation-7").remove();
+		document.getElementById("item-explanation-gif-7").remove();
+		document.getElementById("item-explanation-8").remove();
+		document.getElementById("item-explanation-gif-8").remove();
+		document.getElementById("item-explanation-9").remove();
+		document.getElementById("item-explanation-gif-9").remove();
+		document.getElementById("item-explanation-10").remove();
+		document.getElementById("item-explanation-gif-10").remove();
+		document.getElementById("item-explanation-11").remove();
+		document.getElementById("item-explanation-gif-11").remove();
+		document.getElementById("item-explanation-12").remove();
+		document.getElementById("item-explanation-gif-12").remove();
+		document.getElementById("item-explanation-13").remove();
+		document.getElementById("item-explanation-gif-13").remove();
+		document.getElementById("item-explanation-14").remove();
+		document.getElementById("item-explanation-gif-14").remove();
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
+
+		break;
+
+
+
+
 /*
 	case "Title":
 
