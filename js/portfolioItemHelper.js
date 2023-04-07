@@ -478,22 +478,57 @@ switch(programName) {
 
 	case "Video Uploader":
 
-		document.getElementById("item-intro-pic").src = 'myPics/VideoUploaderMedia/VU-homePage.png';
+		document.getElementById("item-intro-pic").src = 'myPics/VideoUploaderMedia/VU-appScreenshot.png';
 		document.getElementById("item-intro-subtitle").innerHTML = "Save videos to the cloud.";
-		document.getElementById("item-explanation-1").remove();
+		document.getElementById("item-explanation-1").innerHTML = "This application displays all of the users files that end in \'.mp4\' and gives them the option to " + 
+						"either delete them or save them to, as well as delete them from, a database. Developing the application has introduced me to a few useful concepts " +
+						"such as implementing a RecyclerView, accessing the users local files, using Firebase Storage and more.<br><br> View the full app explanation below.";
 		document.getElementById("item-explanation-gif-1").remove();
-		document.getElementById("item-explanation-2").remove();
+
+		VU_localVideos = "<br><br>Local Videos<br><br>";
+		document.getElementById("item-explanation-2").innerHTML = VU_localVideos.bold();
+		document.getElementById("item-explanation-2").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-2").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-2").remove();
-		document.getElementById("item-explanation-3").remove();
-		document.getElementById("item-explanation-gif-3").remove();
-		document.getElementById("item-explanation-4").remove();
+
+		document.getElementById("item-explanation-3").innerHTML = "When the application first opens, it will automatically acquire all \'.mp4\' files in the device " +
+						"and display them in a RecyclerView. The user is also able to view and delete the local videos as the video below demonstrates.";
+		//document.getElementById("item-explanation-gif-3").remove();
+
+		const localVideoHolder = document.getElementById("item-explanation-4");
+		const localVideo = document.createElement('video');
+		localVideo.src =
+		  'myPics/VideoUploaderMedia/VU-localFiles.mp4';
+		localVideo.autoplay = false;
+		localVideo.controls = true;
+		localVideo.muted = true;
+		localVideo.style.width = '50%';
+		localVideo.playbackRate = 2.0;
+		localVideoHolder.appendChild(localVideo);
 		document.getElementById("item-explanation-gif-4").remove();
-		document.getElementById("item-explanation-5").remove();
+
+		VU_cloudStorage = "<br><br>Using the Cloud Storage<br><br>";
+		document.getElementById("item-explanation-5").innerHTML = VU_cloudStorage.bold();
+		document.getElementById("item-explanation-5").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-5").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-5").remove();
-		document.getElementById("item-explanation-6").remove();
-		document.getElementById("item-explanation-gif-6").remove();
-		document.getElementById("item-explanation-7").remove();
-		document.getElementById("item-explanation-gif-7").remove();
+		document.getElementById("item-explanation-6").innerHTML = "To save memory in the local storage, users may save their videos to the cloud storage. Users can also retrieve the cloud" +
+						" videos and add them to the display which will contain a button with a different text and color then the local files have. The video below shows a user utilizing " +
+						"the cloud storage by retrieving the videos, adding/deleting a video to/from the cloud and once again removing the displayed cloud videos.";
+		//document.getElementById("item-explanation-gif-6").remove();
+
+		const dbVideoHolder = document.getElementById("item-explanation-7");
+		const dbVideo = document.createElement('video');
+		dbVideo.src =
+		  'myPics/VideoUploaderMedia/VU-cloudVideos.mp4';
+		dbVideo.autoplay = false;
+		dbVideo.controls = true;
+		dbVideo.muted = true;
+		dbVideo.style.width = '100%';
+		dbVideo.playbackRate = 2.0;
+		dbVideoHolder.appendChild(dbVideo);
+		//document.getElementById("item-explanation-gif-7").remove();
+
 		document.getElementById("item-explanation-8").remove();
 		document.getElementById("item-explanation-gif-8").remove();
 		document.getElementById("item-explanation-9").remove();
