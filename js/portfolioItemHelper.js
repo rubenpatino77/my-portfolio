@@ -559,12 +559,13 @@ switch(programName) {
 		break;
 
 
-	case "Learning Asp.Net Core":
+	case "Learning ASP.NET Core":
 
 		document.getElementById("item-intro-pic").src = 'myPics/LANC-images/LANC-homePage.png';
-		document.getElementById("item-intro-subtitle").innerHTML = "My first Asp.Net Core Project";
-		document.getElementById("item-explanation-1").innerHTML = "This is a simple application built to learn the basics and file structure of an Asp.Net Core " +
-							"project. The application incorporates Razor, Blazor, an api response and a json file that acts as a database. The project is further explained below.";
+		document.getElementById("item-intro-subtitle").innerHTML = "My First ASP.NET Core Project";
+		document.getElementById("item-explanation-1").innerHTML = "This is a simple application built to learn the basics and file structure of an ASP.NET Core " +
+							"project. The application incorporates Razor, Blazor, an api response and a JSON file that acts as a database. The project is explained" +
+							" in detail below.";
 		document.getElementById("item-explanation-gif-1").remove();
 
 
@@ -575,7 +576,7 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-2").remove();
 
 		document.getElementById("item-explanation-3").innerHTML = "Below is an image of the home screen where the header consist of a couple navigation buttons and the" +
-							" body displays a list of items from the json file. The header, footer and body all use Razor Pages but within the body, the list of items " +
+							" body displays the list of items from the JSON file. The header, footer and body all use Razor Pages but within the body, the list of items " +
 							"as well as the modals utilize Blazor. Each item listed contains a \'More Info\' button to display more information about the product.";
 		document.getElementById("item-explanation-gif-3").src = "myPics/LANC-images/LANC-homePage.png";
 		
@@ -584,7 +585,7 @@ switch(programName) {
 							"which will then be taken into account for the overall rating. The image below displays a \"More Info\" modal but BEFORE the user gives a rating.";
 		document.getElementById("item-explanation-gif-4").src = "myPics/LANC-images/LANC-ratingsBefore.png";
 
-		document.getElementById("item-explanation-5").innerHTML = "The next two images are 2 different examples of a modal AFTER the user gives a rating. The user is the " +
+		document.getElementById("item-explanation-5").innerHTML = "The next two images are two different examples of a modal AFTER the user gives a rating. The user is the " +
 							"the first voter in the first image and the 8th voter in the second."
 		document.getElementById("item-explanation-gif-5").src = "myPics/LANC-images/LANC-ratingsAfter.png";
 		document.getElementById("item-explanation-6").remove();
@@ -597,7 +598,7 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-7").remove();
 
 
-		document.getElementById("item-explanation-8").innerHTML = "Now about the \"Privacy\" navigation button, below is an image of the page it takes the user to. The button" +
+		document.getElementById("item-explanation-8").innerHTML = "As for the \"Privacy\" navigation button, below is an image of the page it takes the user to. The button" +
 							" only serves as a learning tool for routing.";
 		document.getElementById("item-explanation-gif-8").src = "myPics/LANC-images/LANC-privacyPage.png";
 

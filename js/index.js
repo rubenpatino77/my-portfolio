@@ -44,6 +44,6 @@ document.getElementById('project-six').onclick = function() {
 }
 
 document.getElementById('project-seven').onclick = function() {
-   localStorage.setItem("intro-name", "Learning Asp.Net Core");
+   localStorage.setItem("intro-name", "Learning ASP.NET Core");
    window.location = "portfolioItem.html";
 }
