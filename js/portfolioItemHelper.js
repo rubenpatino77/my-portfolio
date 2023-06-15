@@ -400,7 +400,7 @@ switch(programName) {
 
 
 		document.getElementById("item-explanation-4").innerHTML = "As shown below, the homepage displays a navigation bar and lists all of the books that are for " +
-		"sale. Since the user is not yet signed in, the only buttons or links that will work are the \'Login\' and \'Register\' buttons.";
+						"sale. Since the user is not yet signed in, the only buttons or links that will work are the \'Login\' and \'Register\' buttons.";
 		document.getElementById("item-explanation-gif-4").src = "myPics/bookShopMedia/homePage.png";
 
 		bookShopRegPageSub = "<br><br>Register Page<br><br>";
@@ -559,8 +559,98 @@ switch(programName) {
 		break;
 
 
+	case "Learning Asp.Net Core":
+
+		document.getElementById("item-intro-pic").src = 'myPics/LANC-images/LANC-homePage.png';
+		document.getElementById("item-intro-subtitle").innerHTML = "My first Asp.Net Core Project";
+		document.getElementById("item-explanation-1").innerHTML = "This is a simple application built to learn the basics and file structure of an Asp.Net Core " +
+							"project. The application incorporates Razor, Blazor, an api response and a json file that acts as a database. The project is further explained below.";
+		document.getElementById("item-explanation-gif-1").remove();
 
 
+		LANC_homePage = "<br><br>Home Page<br><br>";
+		document.getElementById("item-explanation-2").innerHTML = LANC_homePage.bold();
+		document.getElementById("item-explanation-2").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-2").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-2").remove();
+
+		document.getElementById("item-explanation-3").innerHTML = "Below is an image of the home screen where the header consist of a couple navigation buttons and the" +
+							" body displays a list of items from the json file. The header, footer and body all use Razor Pages but within the body, the list of items " +
+							"as well as the modals utilize Blazor. Each item listed contains a \'More Info\' button to display more information about the product.";
+		document.getElementById("item-explanation-gif-3").src = "myPics/LANC-images/LANC-homePage.png";
+		
+		document.getElementById("item-explanation-4").innerHTML = "If a \"More Info\" button is clicked, it can be seen below that a modal pops up with more information" +
+							" about the corresponding item. These modals, as well as the entire list, were created using Blazor. Here, the user is able to rate the item " +
+							"which will then be taken into account for the overall rating. The image below displays a \"More Info\" modal but BEFORE the user gives a rating.";
+		document.getElementById("item-explanation-gif-4").src = "myPics/LANC-images/LANC-ratingsBefore.png";
+
+		document.getElementById("item-explanation-5").innerHTML = "The next two images are 2 different examples of a modal AFTER the user gives a rating. The user is the " +
+							"the first voter in the first image and the 8th voter in the second."
+		document.getElementById("item-explanation-gif-5").src = "myPics/LANC-images/LANC-ratingsAfter.png";
+		document.getElementById("item-explanation-6").remove();
+		document.getElementById("item-explanation-gif-6").src = "myPics/LANC-images/LANC-ratingsAfter2.png";
+
+		LANC_privacyPage = "<br><br>Privacy Page<br><br>";
+		document.getElementById("item-explanation-7").innerHTML = LANC_privacyPage.bold();
+		document.getElementById("item-explanation-7").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-7").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-7").remove();
+
+
+		document.getElementById("item-explanation-8").innerHTML = "Now about the \"Privacy\" navigation button, below is an image of the page it takes the user to. The button" +
+							" only serves as a learning tool for routing.";
+		document.getElementById("item-explanation-gif-8").src = "myPics/LANC-images/LANC-privacyPage.png";
+
+		LANC_apiSubtitle = "<br><br>API<br><br>";
+		document.getElementById("item-explanation-9").innerHTML = LANC_apiSubtitle.bold();
+		document.getElementById("item-explanation-9").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-9").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-9").remove();
+
+
+		document.getElementById("item-explanation-10").innerHTML = "Finally, in order to get familiar with creating an API, a simple GET request is sent when we ask for the " +
+							"\"/products\" url extension as the image below displays.";
+		document.getElementById("item-explanation-gif-10").src = "myPics/LANC-images/LANC-apiCall.png";
+
+		document.getElementById("item-explanation-11").remove();
+		document.getElementById("item-explanation-gif-11").remove();
+		document.getElementById("item-explanation-12").remove();
+		document.getElementById("item-explanation-gif-12").remove();
+		document.getElementById("item-explanation-13").remove();
+		document.getElementById("item-explanation-gif-13").remove();
+		document.getElementById("item-explanation-14").remove();
+		document.getElementById("item-explanation-gif-14").remove();
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
+
+		break;
+
+
+
+/*
+		//HOW TO CREATE A SUBTITLE
+
+		LANC_apiSubtitle = "<br><br>API<br><br>";
+		document.getElementById("item-explanation-9").innerHTML = LANC_apiSubtitle.bold();
+		document.getElementById("item-explanation-9").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-9").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-9").remove();
+
+
+		document.getElementById("item-explanation-10").innerHTML = "As shown below, the homepage displays a navigation bar and lists all of the books that are for " +
+							"sale. Since the user is not yet signed in, the only buttons or links that will work are the \'Login\' and \'Register\' buttons.";
+		document.getElementById("item-explanation-gif-10").src = "myPics/LANC-images/LANC-privacyPage.png";
+*/
 /*
 	case "Title":
 

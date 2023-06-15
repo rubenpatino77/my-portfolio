@@ -42,3 +42,8 @@ document.getElementById('project-six').onclick = function() {
    localStorage.setItem("intro-name", "Video Uploader");
    window.location = "portfolioItem.html";
 }
+
+document.getElementById('project-seven').onclick = function() {
+   localStorage.setItem("intro-name", "Learning Asp.Net Core");
+   window.location = "portfolioItem.html";
+}
