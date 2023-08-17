@@ -640,39 +640,79 @@ switch(programName) {
 
 
 
-			case "Learning EF Core":
+	case "Learning EF Core":
 
 		document.getElementById("item-intro-pic").src = 'myPics/EFCoreImages/homePage.png';
-		document.getElementById("item-intro-subtitle").innerHTML = "My introduction to EF Core!";
+		document.getElementById("item-intro-subtitle").innerHTML = "My Introduction to EF Core!";
 
-		document.getElementById("item-explanation-1").remove();
+		document.getElementById("item-explanation-1").innerHTML = "This project allows users to perform CRUD operations and display a list of items and their prices. The"
+												 + " application utilizes Razor Pages and Bootstrap along with a local SQL database hosted by Docker and tracked using "
+												 + "Azure. All navigation buttons use Razor Page routing to navigate to additional pages.";
 		document.getElementById("item-explanation-gif-1").remove();
-		document.getElementById("item-explanation-2").remove();
+
+		EFCore_homeSubtitle = "<br><br>Homepage<br><br>";
+		document.getElementById("item-explanation-2").innerHTML = EFCore_homeSubtitle.bold();
+		document.getElementById("item-explanation-2").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-2").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-2").remove();
-		document.getElementById("item-explanation-3").remove();
-		document.getElementById("item-explanation-gif-3").remove();
-		document.getElementById("item-explanation-4").remove();
+
+
+		document.getElementById("item-explanation-3").innerHTML = "The homepage contains 2 buttons in the header, each direct the user to the same "
+												+ "homepage which is displayed below. The page also contains a \"Create New\" button and a list of added items and their "
+												+ "prices, along with the option to edit, view, or delete each item.";
+		document.getElementById("item-explanation-gif-3").src = "myPics/EFCoreImages/homePage.png";
+
+		EFCore_createSubtitle = "<br><br>Create Page<br><br>";
+		document.getElementById("item-explanation-4").innerHTML = EFCore_createSubtitle.bold();
+		document.getElementById("item-explanation-4").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-4").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-4").remove();
-		document.getElementById("item-explanation-5").remove();
-		document.getElementById("item-explanation-gif-5").remove();
-		document.getElementById("item-explanation-6").remove();
-		document.getElementById("item-explanation-gif-6").remove();
-		document.getElementById("item-explanation-7").remove();
+
+
+		document.getElementById("item-explanation-5").innerHTML = "The \"Create New\" button directs the user to the \"Create\" page that can be seen in the image below. The"
+												+ " user must enter a name and price into the corresponding input boxes and click on the \"Create\" button to create a new item."
+		document.getElementById("item-explanation-gif-5").src = "myPics/EFCoreImages/createPage.png";
+
+		document.getElementById("item-explanation-6").innerHTML = "The image below shows the result of creating the new item from the previous image.";
+		document.getElementById("item-explanation-gif-6").src = "myPics/EFCoreImages/afterCreate.png";
+
+		EFCore_editSubtitle = "<br><br>Edit Page<br><br>";
+		document.getElementById("item-explanation-7").innerHTML = EFCore_editSubtitle.bold();
+		document.getElementById("item-explanation-7").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-7").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-7").remove();
-		document.getElementById("item-explanation-8").remove();
-		document.getElementById("item-explanation-gif-8").remove();
-		document.getElementById("item-explanation-9").remove();
-		document.getElementById("item-explanation-gif-9").remove();
-		document.getElementById("item-explanation-10").remove();
+
+		document.getElementById("item-explanation-8").innerHTML = "The \"Edit\" page is similar to the \"Create New\" page except the input boxes contain the information of"
+												+ " the item selected. The image below showcases a user in the \"Edit\" page editing the cheese pizza item, making it 50 "
+												+ "cents more.";
+		document.getElementById("item-explanation-gif-8").src = "myPics/EFCoreImages/editPage.png";
+
+		document.getElementById("item-explanation-9").innerHTML = "Below we can see the result of the user clicking the \"Save\" button after increasing the price of the "
+												+ "\"Cheese Pizza\" item.";
+		document.getElementById("item-explanation-gif-9").src = "myPics/EFCoreImages/afterEdit.png";
+
+		EFCore_detailsSubtitle = "<br><br>Details Page<br><br>";
+		document.getElementById("item-explanation-10").innerHTML = EFCore_detailsSubtitle.bold();
+		document.getElementById("item-explanation-10").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-10").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-10").remove();
-		document.getElementById("item-explanation-11").remove();
-		document.getElementById("item-explanation-gif-11").remove();
-		document.getElementById("item-explanation-12").remove();
+
+		document.getElementById("item-explanation-11").innerHTML = "The \"Details\" page, as can be seen below, displays the details to the selected item. The option to edit "
+												+ "the item as well as go back to the list are still present.";
+		document.getElementById("item-explanation-gif-11").src = "myPics/EFCoreImages/detailsPage.png";
+
+		EFCore_deleteSubtitle = "<br><br>Delete Page<br><br>";
+		document.getElementById("item-explanation-12").innerHTML = EFCore_deleteSubtitle.bold();
+		document.getElementById("item-explanation-12").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-12").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-12").remove();
-		document.getElementById("item-explanation-13").remove();
-		document.getElementById("item-explanation-gif-13").remove();
-		document.getElementById("item-explanation-14").remove();
-		document.getElementById("item-explanation-gif-14").remove();
+
+		document.getElementById("item-explanation-13").innerHTML = "The \"Delete\" page is shown in the image below. As we can see, the page features the selected items "
+												+ "details, a \"Delete\" button and a \"Back to List\" button.";
+		document.getElementById("item-explanation-gif-13").src = "myPics/EFCoreImages/deletePage.png";
+
+		document.getElementById("item-explanation-14").innerHTML = "After clicking on the \"Delete\" button, the item is removed from the list.";
+		document.getElementById("item-explanation-gif-14").src = "myPics/EFCoreImages/homePage.png";
 		document.getElementById("item-explanation-15").remove();
 		document.getElementById("item-explanation-gif-15").remove();
 		document.getElementById("item-explanation-16").remove();
