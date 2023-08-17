@@ -646,7 +646,7 @@ switch(programName) {
 		document.getElementById("item-intro-subtitle").innerHTML = "My Introduction to EF Core!";
 
 		document.getElementById("item-explanation-1").innerHTML = "This project allows users to perform CRUD operations and display a list of items and their prices. The"
-												 + " application utilizes Razor Pages and Bootstrap along with a local SQL database hosted by Docker and tracked using "
+												 + " application utilizes Razor Pages and Bootstrap along with a local SQL database hosted by Docker and is tracked using "
 												 + "Azure. All navigation buttons use Razor Page routing to navigate to additional pages.";
 		document.getElementById("item-explanation-gif-1").remove();
 
@@ -657,9 +657,9 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-2").remove();
 
 
-		document.getElementById("item-explanation-3").innerHTML = "The homepage contains 2 buttons in the header, each direct the user to the same "
+		document.getElementById("item-explanation-3").innerHTML = "The homepage contains 2 buttons in the header, each directs the user to the same "
 												+ "homepage which is displayed below. The page also contains a \"Create New\" button and a list of added items and their "
-												+ "prices, along with the option to edit, view, or delete each item.";
+												+ "prices, as well as the option to edit, view, or delete each item.";
 		document.getElementById("item-explanation-gif-3").src = "myPics/EFCoreImages/homePage.png";
 
 		EFCore_createSubtitle = "<br><br>Create Page<br><br>";
@@ -683,7 +683,7 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-7").remove();
 
 		document.getElementById("item-explanation-8").innerHTML = "The \"Edit\" page is similar to the \"Create New\" page except the input boxes contain the information of"
-												+ " the item selected. The image below showcases a user in the \"Edit\" page editing the cheese pizza item, making it 50 "
+												+ " the selected item. The image below showcases a user in the \"Edit\" page editing the \"Cheese Pizza\" item, making it 50 "
 												+ "cents more.";
 		document.getElementById("item-explanation-gif-8").src = "myPics/EFCoreImages/editPage.png";
 
@@ -707,8 +707,8 @@ switch(programName) {
 		document.getElementById("item-explanation-12").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-12").remove();
 
-		document.getElementById("item-explanation-13").innerHTML = "The \"Delete\" page is shown in the image below. As we can see, the page features the selected items "
-												+ "details, a \"Delete\" button and a \"Back to List\" button.";
+		document.getElementById("item-explanation-13").innerHTML = "The \"Delete\" page is shown in the image below. As we can see, the page features the selected item's "
+												+ "details, a \"Delete\" button, and a \"Back to List\" button.";
 		document.getElementById("item-explanation-gif-13").src = "myPics/EFCoreImages/deletePage.png";
 
 		document.getElementById("item-explanation-14").innerHTML = "After clicking on the \"Delete\" button, the item is removed from the list.";
