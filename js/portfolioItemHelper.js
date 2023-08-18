@@ -646,8 +646,8 @@ switch(programName) {
 		document.getElementById("item-intro-subtitle").innerHTML = "My Introduction to EF Core!";
 
 		document.getElementById("item-explanation-1").innerHTML = "This project allows users to perform CRUD operations and display a list of items and their prices. The"
-												 + " application utilizes Razor Pages and Bootstrap along with a local SQL database hosted by Docker and is tracked using "
-												 + "Azure. All navigation buttons use Razor Page routing to navigate to additional pages.";
+												 + " application utilizes Razor Pages and Bootstrap along with a local SQL database hosted by Docker and was tracked using"
+												 + " Azure. All navigation buttons use Razor Page routing to navigate to additional pages.";
 		document.getElementById("item-explanation-gif-1").remove();
 
 		EFCore_homeSubtitle = "<br><br>Homepage<br><br>";
