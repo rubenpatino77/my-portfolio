@@ -52,3 +52,8 @@ document.getElementById('project-eight').onclick = function() {
    localStorage.setItem("intro-name", "Learning EF Core");
    window.location = "portfolioItem.html";
 }
+
+document.getElementById('project-nine').onclick = function() {
+   localStorage.setItem("intro-name", "Run Groups Social Media");
+   window.location = "portfolioItem.html";
+}

@@ -16,6 +16,7 @@ let programName = localStorage.getItem("intro-name");
 document.getElementById("item-intro-name").innerHTML = programName
 
 switch(programName) {
+
 	case "Time Change Tracker":
 		document.getElementById("item-intro-pic").src = 'myPics/TCTPics/app.png';
 		document.getElementById("item-intro-subtitle").innerHTML = "NO MORE LOCKED DOORS!";
@@ -76,6 +77,11 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-20").remove();
 
 		break;
+
+
+
+
+
 
 	case "My Website Example":
 
@@ -221,6 +227,10 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-20").remove();
 		break;
 
+
+
+
+
 	case "Task Tracker Website":
 
 		document.getElementById("item-intro-pic").src = 'myPics/taskTrackerPics/introPic.png';
@@ -276,6 +286,9 @@ switch(programName) {
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
 		break;
+
+
+
 
 
 	case "Friends List Website":
@@ -372,6 +385,10 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-20").remove();
 
 		break;
+
+
+
+
 
 	case "Book Shop Simulator":
 
@@ -476,6 +493,7 @@ switch(programName) {
 
 
 
+
 	case "Video Uploader":
 
 		document.getElementById("item-intro-pic").src = 'myPics/VideoUploaderMedia/VU-appScreenshot.png';
@@ -559,6 +577,9 @@ switch(programName) {
 		break;
 
 
+
+
+
 	case "Learning ASP.NET Core":
 
 		document.getElementById("item-intro-pic").src = 'myPics/LANC-images/LANC-homePage.png';
@@ -599,7 +620,7 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-7").remove();
 
 
-		document.getElementById("item-explanation-8").innerHTML = "As for the \"Privacy\" navigation button, below is an image of the page it takes the user to. The button" +
+		document.getElementById("item-explanation-8").innerHTML = "As for the \"Privacy\" navigation button, below is an image of the page it directs the user to. The button" +
 							" only serves as a learning tool for routing.";
 		document.getElementById("item-explanation-gif-8").src = "myPics/LANC-images/LANC-privacyPage.png";
 
@@ -636,6 +657,7 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-20").remove();
 
 		break;
+
 
 
 
@@ -728,6 +750,59 @@ switch(programName) {
 
 		break;
 
+	case "Run Groups Social Media":
+
+		document.getElementById("item-intro-pic").src = 'myPics/RunGroupsImages/RG_HomePage.png';
+		document.getElementById("item-intro-subtitle").innerHTML = "Social media for friendly runners to group up.";
+		document.getElementById("item-explanation-1").innerHTML = "This application is called \"Run Group\". Users can create an account and login to create there own"
+												+ " Clubs and Races for other users to join. The app utilizes ASP.NET Core, Entity Framework Core and Identity. Some "
+												+ "external tools used include Docker, Azure and a couple of APIs ";
+		document.getElementById("item-explanation-gif-1").remove();
+
+		RG_HomeSubtitle = "<br><br>Home<br><br>";
+		document.getElementById("item-explanation-2").innerHTML = RG_HomeSubtitle.bold();
+		document.getElementById("item-explanation-2").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-2").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-2").remove();
+
+		document.getElementById("item-explanation-3").innerHTML = "My expl";
+		document.getElementById("item-explanation-gif-3").remove();
+		document.getElementById("item-explanation-4").remove();
+		document.getElementById("item-explanation-gif-4").remove();
+		document.getElementById("item-explanation-5").remove();
+		document.getElementById("item-explanation-gif-5").remove();
+		document.getElementById("item-explanation-6").remove();
+		document.getElementById("item-explanation-gif-6").remove();
+		document.getElementById("item-explanation-7").remove();
+		document.getElementById("item-explanation-gif-7").remove();
+		document.getElementById("item-explanation-8").remove();
+		document.getElementById("item-explanation-gif-8").remove();
+		document.getElementById("item-explanation-9").remove();
+		document.getElementById("item-explanation-gif-9").remove();
+		document.getElementById("item-explanation-10").remove();
+		document.getElementById("item-explanation-gif-10").remove();
+		document.getElementById("item-explanation-11").remove();
+		document.getElementById("item-explanation-gif-11").remove();
+		document.getElementById("item-explanation-12").remove();
+		document.getElementById("item-explanation-gif-12").remove();
+		document.getElementById("item-explanation-13").remove();
+		document.getElementById("item-explanation-gif-13").remove();
+		document.getElementById("item-explanation-14").remove();
+		document.getElementById("item-explanation-gif-14").remove();
+		document.getElementById("item-explanation-15").remove();
+		document.getElementById("item-explanation-gif-15").remove();
+		document.getElementById("item-explanation-16").remove();
+		document.getElementById("item-explanation-gif-16").remove();
+		document.getElementById("item-explanation-17").remove();
+		document.getElementById("item-explanation-gif-17").remove();
+		document.getElementById("item-explanation-18").remove();
+		document.getElementById("item-explanation-gif-18").remove();
+		document.getElementById("item-explanation-19").remove();
+		document.getElementById("item-explanation-gif-19").remove();
+		document.getElementById("item-explanation-20").remove();
+		document.getElementById("item-explanation-gif-20").remove();
+
+		break;
 
 /*
 		//HOW TO CREATE A SUBTITLE
