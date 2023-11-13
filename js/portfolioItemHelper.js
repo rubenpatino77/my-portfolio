@@ -75,6 +75,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 
 		break;
 
@@ -225,6 +231,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 		break;
 
 
@@ -285,6 +297,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 		break;
 
 
@@ -383,6 +401,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 
 		break;
 
@@ -487,6 +511,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 
 		break;
 
@@ -573,6 +603,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 
 		break;
 
@@ -655,6 +691,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 
 		break;
 
@@ -747,6 +789,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 
 		break;
 
@@ -754,7 +802,7 @@ switch(programName) {
 
 		document.getElementById("item-intro-pic").src = 'myPics/RunGroupsImages/RG_HomePage.png';
 		document.getElementById("item-intro-subtitle").innerHTML = "Social media for friendly runners to group up.";
-		document.getElementById("item-explanation-1").innerHTML = "This application is called \"Run Group\". Users can create an account and login to create there own"
+		document.getElementById("item-explanation-1").innerHTML = "The application, \"Run Group\", allows users to create an account, login and create there own"
 												+ " Clubs and Races for other users to join. The app utilizes ASP.NET Core, Entity Framework Core and Identity. Some "
 												+ "external tools used include Docker, Azure and a couple of APIs ";
 		document.getElementById("item-explanation-gif-1").remove();
@@ -765,43 +813,102 @@ switch(programName) {
 		document.getElementById("item-explanation-2").style.textDecoration = "underline";
 		document.getElementById("item-explanation-gif-2").remove();
 
-		document.getElementById("item-explanation-3").innerHTML = "My expl";
-		document.getElementById("item-explanation-gif-3").remove();
-		document.getElementById("item-explanation-4").remove();
-		document.getElementById("item-explanation-gif-4").remove();
-		document.getElementById("item-explanation-5").remove();
-		document.getElementById("item-explanation-gif-5").remove();
-		document.getElementById("item-explanation-6").remove();
-		document.getElementById("item-explanation-gif-6").remove();
-		document.getElementById("item-explanation-7").remove();
-		document.getElementById("item-explanation-gif-7").remove();
-		document.getElementById("item-explanation-8").remove();
-		document.getElementById("item-explanation-gif-8").remove();
-		document.getElementById("item-explanation-9").remove();
-		document.getElementById("item-explanation-gif-9").remove();
-		document.getElementById("item-explanation-10").remove();
-		document.getElementById("item-explanation-gif-10").remove();
-		document.getElementById("item-explanation-11").remove();
-		document.getElementById("item-explanation-gif-11").remove();
-		document.getElementById("item-explanation-12").remove();
-		document.getElementById("item-explanation-gif-12").remove();
-		document.getElementById("item-explanation-13").remove();
-		document.getElementById("item-explanation-gif-13").remove();
-		document.getElementById("item-explanation-14").remove();
-		document.getElementById("item-explanation-gif-14").remove();
-		document.getElementById("item-explanation-15").remove();
-		document.getElementById("item-explanation-gif-15").remove();
-		document.getElementById("item-explanation-16").remove();
-		document.getElementById("item-explanation-gif-16").remove();
-		document.getElementById("item-explanation-17").remove();
-		document.getElementById("item-explanation-gif-17").remove();
-		document.getElementById("item-explanation-18").remove();
-		document.getElementById("item-explanation-gif-18").remove();
-		document.getElementById("item-explanation-19").remove();
-		document.getElementById("item-explanation-gif-19").remove();
-		document.getElementById("item-explanation-20").remove();
-		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-3").innerHTML = "The home page displayed in the images below contains 2 separate sections. First, the top section (below"
+												+ " image) includes a simple welcome message and a couple images for visual marketing.";
+		document.getElementById("item-explanation-gif-3").src = "myPics/RunGroupsImages/RG_HomePage.png";
 
+		document.getElementById("item-explanation-4").innerHTML = "This next image displays the second section of the home page which will contain clubs that are local to the "
+												+ "users location. The application knows of the users location through the use of the ipinfo.io's API. In the below example, there "
+												+ "is only 1 club local to the user.";
+		document.getElementById("item-explanation-gif-4").src = "myPics/RunGroupsImages/RG_HomePage2.png";
+
+		RG_RegisterSubtitle = "<br><br>Register<br><br>";
+		document.getElementById("item-explanation-5").innerHTML = RG_RegisterSubtitle.bold();
+		document.getElementById("item-explanation-5").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-5").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-5").remove();
+
+		document.getElementById("item-explanation-6").innerHTML = "The Register page includes a simple registeration form for users to create an account. In the backend, Identity"
+												+ " Frameworks \"UserManager<>\" is used to assist with the registeration of the users.";
+		document.getElementById("item-explanation-gif-6").src = "myPics/RunGroupsImages/RG_RegisterPage.png";
+
+		RG_LoginSubtitle = "<br><br>Login<br><br>";
+		document.getElementById("item-explanation-7").innerHTML = RG_LoginSubtitle.bold();
+		document.getElementById("item-explanation-7").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-7").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-7").remove();
+
+		document.getElementById("item-explanation-8").innerHTML = "The Login page, similar to the Register page, includes a form but for users to log in. Identity framework also assists with "
+												+ "the authentication of users using a \"UserManager<>\".";
+		document.getElementById("item-explanation-gif-8").src = "myPics/RunGroupsImages/RG_LoginPage.png";
+
+		RG_ClubsSubtitle = "<br><br>Clubs<br><br>";
+		document.getElementById("item-explanation-9").innerHTML = RG_ClubsSubtitle.bold();
+		document.getElementById("item-explanation-9").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-9").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-9").remove();
+
+		document.getElementById("item-explanation-10").innerHTML = "The following image is of the \"Clubs\" page. Here, every club of every user is diplayed within its own "
+												+ "card view. Only if a users role is \"admin\" then can they edit and delete these clubs.";
+		document.getElementById("item-explanation-gif-10").src = "myPics/RunGroupsImages/RG_ClubsPage.png";
+
+		document.getElementById("item-explanation-11").innerHTML = "Each card includes a \"View\" button which every user can access. Looking at the \"Night Runners\" card "
+												+ "on the right side of the above image, if the user clicks on the \"View\" button, the result will be more details to the club"
+												+ " as shown below. The details are obtained through the items given ID that is passed into the query string.";
+		document.getElementById("item-explanation-gif-11").src = "myPics/RunGroupsImages/RG_ViewClub.png";
+
+		RG_RacesSubtitle = "<br><br>Races<br><br>";
+		document.getElementById("item-explanation-12").innerHTML = RG_RacesSubtitle.bold();
+		document.getElementById("item-explanation-12").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-12").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-12").remove();
+
+		document.getElementById("item-explanation-13").innerHTML = "The \"Races\" page is identical to the \"Clubs\" page but for users races instead. We can see the same card "
+												+ "view format of all the races in the next image.";
+		document.getElementById("item-explanation-gif-13").src = "myPics/RunGroupsImages/RG_RacesPage.png";
+
+		document.getElementById("item-explanation-14").innerHTML = "This time, if the user clicks the \"View\" button from the card with a dog, the below image shows the "
+												+ "result.";
+		document.getElementById("item-explanation-gif-14").src = "myPics/RunGroupsImages/RG_ViewRace.png";
+
+		RG_DashboardSubtitle = "<br><br>Dashboard<br><br>";
+		document.getElementById("item-explanation-15").innerHTML = RG_DashboardSubtitle.bold();
+		document.getElementById("item-explanation-15").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-15").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-15").remove();
+
+		document.getElementById("item-explanation-16").innerHTML = "The Dashboard page can only be accessed by signed in users. It contains 2 sections, the first section, "
+												+ "which is shown below, displays the users details along with their profile image.";
+		document.getElementById("item-explanation-gif-16").src = "myPics/RunGroupsImages/RG_DashboardPage.png";
+
+		document.getElementById("item-explanation-17").innerHTML = "The second section is a list of their clubs then their races, as we can see in the next image.";
+		document.getElementById("item-explanation-gif-17").src = "myPics/RunGroupsImages/RG_DashboardPage2.png";
+
+		document.getElementById("item-explanation-18").innerHTML = "Looking at the first section of the Dashboard page, the first button \"Edit Profile\" will navigate the user to a"
+												+ " page similar to the one in the photo below. Users can change any of the information shown in the image.";
+		document.getElementById("item-explanation-gif-18").src = "myPics/RunGroupsImages/RG_EditDashboard.png";
+
+		document.getElementById("item-explanation-19").innerHTML = "Again, looking at the first section, we also see a \"Create Club\" and a \"Create Race\" button. They both work exactly "
+												+ "the same except for their respective object. Below is an example of the Create page for a club. When the form is submitted, Entity"
+												+ " Framework Core aids in the creation and addition of the new entity.";
+		document.getElementById("item-explanation-gif-19").src = "myPics/RunGroupsImages/RG_CreatePage.png";
+
+		document.getElementById("item-explanation-20").innerHTML = "Now referring to the second section of the Dashboard, there is the ability for the user to delete their own clubs or races. "
+												+ "The following image shows an example of a user looking to delete their club. If confirmed, Entity Framework Core assists with the deletion of the club or race.";
+		document.getElementById("item-explanation-gif-20").src = "myPics/RunGroupsImages/RG_DeleteExample.png";
+
+		RG_RunnersSubtitle = "<br><br>Runners<br><br>";
+		document.getElementById("item-explanation-21").innerHTML = RG_RunnersSubtitle.bold();
+		document.getElementById("item-explanation-21").style.fontSize = "1.5REM";
+		document.getElementById("item-explanation-21").style.textDecoration = "underline";
+		document.getElementById("item-explanation-gif-21").remove();
+
+		document.getElementById("item-explanation-22").innerHTML = "For the runners page, Entity Framework Core helps to fetch all users which are then all displayed as shown in the next image.";
+		document.getElementById("item-explanation-gif-22").src = "myPics/RunGroupsImages/RG_RunnersPage.png";
+
+		document.getElementById("item-explanation-23").innerHTML = "If a user was to view the first listed runners profile, they will see a page similar to their dashboard. The details of the runner"
+												+ " is displayed along with a list of the runners clubs and races, which users can only view.";
+		document.getElementById("item-explanation-gif-23").src = "myPics/RunGroupsImages/RG_RunnerDetail.png";
 		break;
 
 /*
@@ -863,6 +970,12 @@ switch(programName) {
 		document.getElementById("item-explanation-gif-19").remove();
 		document.getElementById("item-explanation-20").remove();
 		document.getElementById("item-explanation-gif-20").remove();
+		document.getElementById("item-explanation-21").remove();
+		document.getElementById("item-explanation-gif-21").remove();
+		document.getElementById("item-explanation-22").remove();
+		document.getElementById("item-explanation-gif-22").remove();
+		document.getElementById("item-explanation-23").remove();
+		document.getElementById("item-explanation-gif-23").remove();
 
 		break;
 */
